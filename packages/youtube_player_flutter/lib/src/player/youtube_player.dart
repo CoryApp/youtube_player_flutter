@@ -363,7 +363,7 @@ class _YoutubePlayerState extends State<YoutubePlayer> {
                             widget.controller.flags.showLiveFullscreenButton,
                       )
                     : Padding(
-                        padding: const EdgeInsets.all(8.0),
+                        padding: const EdgeInsets.fromLTRB(8, 8, 8, 16),
                         child: Row(
                           children: widget.bottomActions ??
                               [
