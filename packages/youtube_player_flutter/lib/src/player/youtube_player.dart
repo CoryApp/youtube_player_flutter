@@ -364,7 +364,7 @@ class _YoutubePlayerState extends State<YoutubePlayer> {
                       )
                     : Padding(
                         padding: widget.bottomActions == null
-                            ? const EdgeInsets.all(0.0)
+                            ? const EdgeInsets.all(8.0)
                             : widget.actionsPadding,
                         child: Row(
                           children: widget.bottomActions ??
